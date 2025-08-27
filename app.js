@@ -136,3 +136,20 @@ if (admin == "Alice" || admin == "Bob") {
 }
 
 // QUESTION NO : 17
+
+let num = Number(prompt("Enter a number"));
+if(num > 0){
+    if(num % 2 === 0){
+        alert("Number is positive even");
+    }else{
+        alert("Number is positive odd");
+    }
+}else{
+    alert("Number is negative");
+}
+
+// QUESTION NO : 18
+
+let array = ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry'];
+array.splice(2,0,"Mango");
+console.log(array);
